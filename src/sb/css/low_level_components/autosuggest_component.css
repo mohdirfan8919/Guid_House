@@ -1,0 +1,36 @@
+#autosuggest-container{
+  position: absolute;
+  max-width: calc(68.75rem - 70px);
+  width: 100%;
+  /* border-radius: 20px; */
+  top: calc(100%);
+  background: white;
+  z-index: 1000;
+  box-shadow: 0px 0px 3px black;
+}
+
+#autosuggest-container ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+#autosuggest-container li {
+  display: block;
+  width: 100%;
+  color: #000;
+  /* font-weight: 600; */
+  padding: 8px 10px;
+  font-size: 16px;
+}
+
+#autosuggest-container li.active{
+  cursor: pointer;
+  /* background: lightgrey; */
+  background-color: #000;
+  color:#93d500;
+  /* border-radius: 35px; */
+}
+
+#autosuggest-container:focus{
+  box-shadow: none;
+}

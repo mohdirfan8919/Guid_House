@@ -1,0 +1,34 @@
+.featured-container {
+  clear: both;
+}
+.featured-result {
+  padding: 5px 9px 9px;
+  margin: 10px 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #f5f7fc !important;
+  border-radius: 0.3rem;
+}
+.featured-result a {
+  font-size: 13px;
+  padding: 4px 0 0px;
+  color: #a30300 !important;
+  font-weight: 400;
+  display: block;
+}
+.featured-result a:hover {
+  color: #a30300 !important;
+  text-decoration: none !important;
+}
+.adsDescription {
+  font-size: 12px;
+  margin: 0;
+  word-break: break-word;
+}
+.adsurl {
+  font-size: 12px;
+  margin: 0;
+  word-break: break-word;
+}
+.graphicUrlDiv {
+  margin: 10px 0;
+}

@@ -1,0 +1,60 @@
+.searchGrid ul.pagination  {
+  margin: 0 0 1em;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+.searchGrid ul.pagination a {
+  margin: 0 2px;
+  border: none;
+  font-weight: 500;
+}
+.searchGrid ul.pagination a:hover{
+ text-decoration: underline;
+}
+/* .searchGrid ul.pagination li:first-child a, ul.pagination li:last-child a {
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+} */
+.searchGrid ul.pagination a:focus{
+  border: none;
+}
+.hidePagination{
+  display: none;
+}
+.searchGrid .page-item.active .page-link {
+  background-color: #0070cc;
+    color: #fff;
+    cursor: text;
+}
+.searchGrid .page-item.active .page-link:hover{
+  text-decoration: none;
+}
+ /* .searchGrid .page-item.active .page-link:focus {
+   box-shadow: none;
+ } */
+.searchGrid .page-item {
+  height: 35px;
+  display: inline-block;
+}
+.searchGrid .page-link {
+  text-decoration: none;
+   position: relative;
+    display: block;
+    padding: .5rem .6rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #006fe6;
+    font-size: 13px;
+    background-color: #fff;
+  }
+@media (max-width:767px) {
+  .searchGrid ul.pagination{
+    display: block;
+  }
+  .searchGrid .page-item{
+    margin: 3px 0;
+  }
+}
